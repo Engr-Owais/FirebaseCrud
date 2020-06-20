@@ -153,6 +153,9 @@ public class Info_Artist extends AppCompatActivity {
                 String genre = Country.getSelectedItem().toString();
                 String age = updateage.getText().toString();
 
+
+
+
                 String gendermale = updatemale.getText().toString();
                 String genderfemale = updatefemale.getText().toString();
 //checking if the value is provided or not Here, you can Add More Validation as you required
@@ -181,7 +184,7 @@ public class Info_Artist extends AppCompatActivity {
         });
     }
 
-    
+
 
     private boolean updateUser(String id, String firstname, String secondname , String thirdname , String gender1 ,String country , String age ) {
 
