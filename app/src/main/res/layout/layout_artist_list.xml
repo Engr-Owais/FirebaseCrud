@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:text="First Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewName"
+        android:layout_margin="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/textviewsecondname"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textthirdname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:text="Second Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+        />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:text="Age"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+            />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:text="Gender"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+/>
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:text="Country"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+       />
+
+
+</LinearLayout>
+
+

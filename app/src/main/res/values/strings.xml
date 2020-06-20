@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FirebaseCrud</string>
+
+    <array name="countries">
+        <item>Pakistan</item>
+        <item>America</item>
+        <item>India</item>
+        <item>Austrailia</item>
+
+    </array>
+</resources>
