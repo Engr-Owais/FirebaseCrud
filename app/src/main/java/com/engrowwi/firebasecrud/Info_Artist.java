@@ -152,10 +152,6 @@ public class Info_Artist extends AppCompatActivity {
                 String thirdname = updateTextmobileno.getText().toString().trim();
                 String genre = Country.getSelectedItem().toString();
                 String age = updateage.getText().toString();
-
-
-
-
                 String gendermale = updatemale.getText().toString();
                 String genderfemale = updatefemale.getText().toString();
 //checking if the value is provided or not Here, you can Add More Validation as you required
